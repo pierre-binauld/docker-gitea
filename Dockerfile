@@ -2,8 +2,8 @@ FROM gitea/gitea
 
 WORKDIR /data
 
-ENV GIT_USER_ID=-1
-ENV GIT_GROUP_ID=-1
+ENV UID_GIT=-1
+ENV GID_GIT=-1
 
 RUN apk add --no-cache shadow
 
